@@ -68,6 +68,10 @@ struct LoginView: View {
                          .foregroundColor(.white)
                          .cornerRadius(8)
                  }
+                
+                Button("Crash Now") {
+                    fatalError("Crash was triggered")
+                }
              }
              .padding(.top)
              .alert(isPresented: $showAlert) {
