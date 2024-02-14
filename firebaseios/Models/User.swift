@@ -19,6 +19,7 @@ class User {
     }
     
     convenience init() {
+        
         self.init(id: "", email: "", password: "")
     }
 }
