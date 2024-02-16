@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C18DC3A2B7E9AA000EEA7EE /* TweetsFirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C18DC392B7E9AA000EEA7EE /* TweetsFirebaseViewModel.swift */; };
+		3C18DC3C2B7E9E1400EEA7EE /* Tweet+Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C18DC3B2B7E9E1400EEA7EE /* Tweet+Firebase.swift */; };
+		3C18DC3E2B7EAD3A00EEA7EE /* FirebaseStorageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C18DC3D2B7EAD3A00EEA7EE /* FirebaseStorageViewModel.swift */; };
 		3C875F502B7AB84F00ADB3BF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3C875F4F2B7AB84F00ADB3BF /* FirebaseAnalytics */; };
 		3C875F522B7AB84F00ADB3BF /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 3C875F512B7AB84F00ADB3BF /* FirebaseAnalyticsOnDeviceConversion */; };
 		3C875F542B7AB84F00ADB3BF /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C875F532B7AB84F00ADB3BF /* FirebaseAnalyticsSwift */; };
@@ -36,6 +39,7 @@
 		3CA1E0972B7C08E200793C6A /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA1E0962B7C08E200793C6A /* FirebaseRemoteConfigSwift */; };
 		3CA1E0992B7C08E200793C6A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA1E0982B7C08E200793C6A /* FirebaseStorage */; };
 		3CA1E09B2B7C08E200793C6A /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA1E09A2B7C08E200793C6A /* FirebaseStorageCombine-Community */; };
+		3CD4C6572B7E899A00B20882 /* FirebaseAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4C6562B7E899A00B20882 /* FirebaseAuthViewModel.swift */; };
 		8507C9902A0D6241004F2A8C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8507C98F2A0D6241004F2A8C /* ImagePicker.swift */; };
 		8507C9922A0D9885004F2A8C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8507C9912A0D9885004F2A8C /* Date.swift */; };
 		8507C9962A0D9BD3004F2A8C /* AuthViewModelEnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8507C9932A0D9BD2004F2A8C /* AuthViewModelEnvironmentKey.swift */; };
@@ -66,10 +70,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C18DC392B7E9AA000EEA7EE /* TweetsFirebaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsFirebaseViewModel.swift; sourceTree = "<group>"; };
+		3C18DC3B2B7E9E1400EEA7EE /* Tweet+Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tweet+Firebase.swift"; sourceTree = "<group>"; };
+		3C18DC3D2B7EAD3A00EEA7EE /* FirebaseStorageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageViewModel.swift; sourceTree = "<group>"; };
 		3C875F592B7AB99000ADB3BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3C875F5B2B7ABCC000ADB3BF /* FirebaseLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010FirebaseLogViewModel.swift"; sourceTree = "<group>"; };
 		3CD4C6542B7E1E4E00B20882 /* firebaseios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = firebaseios.entitlements; sourceTree = "<group>"; };
 		3CD4C6552B7E1EC100B20882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3CD4C6562B7E899A00B20882 /* FirebaseAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthViewModel.swift; sourceTree = "<group>"; };
 		8507C98F2A0D6241004F2A8C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		8507C9912A0D9885004F2A8C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		8507C9932A0D9BD2004F2A8C /* AuthViewModelEnvironmentKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModelEnvironmentKey.swift; sourceTree = "<group>"; };
@@ -205,6 +213,7 @@
 				85F413612A04679E002A33C3 /* User.swift */,
 				85C916AC2A06A1CE000C881C /* TweetType.swift */,
 				85C916AE2A06A399000C881C /* Tweet.swift */,
+				3C18DC3B2B7E9E1400EEA7EE /* Tweet+Firebase.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -270,6 +279,7 @@
 			children = (
 				85F4135F2A046728002A33C3 /* AuthViewModelProtocol.swift */,
 				85F413632A046831002A33C3 /* DummyAuthViewModel.swift */,
+				3CD4C6562B7E899A00B20882 /* FirebaseAuthViewModel.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -279,6 +289,7 @@
 			children = (
 				85C916A62A06A00A000C881C /* StorageViewModelProtocol.swift */,
 				85C916AA2A06A13E000C881C /* DummyStorageViewModel.swift */,
+				3C18DC3D2B7EAD3A00EEA7EE /* FirebaseStorageViewModel.swift */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -288,6 +299,7 @@
 			children = (
 				85C916A42A069F9C000C881C /* TweetsViewModelProtocol.swift */,
 				85C916A82A06A0C4000C881C /* DummyTweetsViewModel.swift */,
+				3C18DC392B7E9AA000EEA7EE /* TweetsFirebaseViewModel.swift */,
 			);
 			path = Tweets;
 			sourceTree = "<group>";
@@ -437,7 +449,9 @@
 			files = (
 				85F4135B2A0466A7002A33C3 /* DummyLogViewModel.swift in Sources */,
 				85F413602A046728002A33C3 /* AuthViewModelProtocol.swift in Sources */,
+				3C18DC3A2B7E9AA000EEA7EE /* TweetsFirebaseViewModel.swift in Sources */,
 				8507C9982A0D9BD3004F2A8C /* LogViewModelEnvironmentKey.swift in Sources */,
+				3C18DC3C2B7E9E1400EEA7EE /* Tweet+Firebase.swift in Sources */,
 				85F413622A04679E002A33C3 /* User.swift in Sources */,
 				8507C9A12A0D9FAB004F2A8C /* TweetInput.swift in Sources */,
 				85F413642A046831002A33C3 /* DummyAuthViewModel.swift in Sources */,
@@ -448,6 +462,7 @@
 				8507C9902A0D6241004F2A8C /* ImagePicker.swift in Sources */,
 				85C916A92A06A0C4000C881C /* DummyTweetsViewModel.swift in Sources */,
 				3C875F5C2B7ABCC000ADB3BF /* FirebaseLogViewModel.swift in Sources */,
+				3CD4C6572B7E899A00B20882 /* FirebaseAuthViewModel.swift in Sources */,
 				85F413592A04665B002A33C3 /* LogViewModelProtocol.swift in Sources */,
 				85C916A52A069F9D000C881C /* TweetsViewModelProtocol.swift in Sources */,
 				85C916AB2A06A13E000C881C /* DummyStorageViewModel.swift in Sources */,
@@ -455,6 +470,7 @@
 				8507C9922A0D9885004F2A8C /* Date.swift in Sources */,
 				8507C99A2A0D9C07004F2A8C /* StorageViewModelEnvironmentKey.swift in Sources */,
 				85F413462A046320002A33C3 /* ContentView.swift in Sources */,
+				3C18DC3E2B7EAD3A00EEA7EE /* FirebaseStorageViewModel.swift in Sources */,
 				8507C99D2A0D9F89004F2A8C /* TweetList.swift in Sources */,
 				85F4136B2A046A7E002A33C3 /* LoginView.swift in Sources */,
 				8507C9972A0D9BD3004F2A8C /* TweetsViewModelEnvironmentKey.swift in Sources */,
