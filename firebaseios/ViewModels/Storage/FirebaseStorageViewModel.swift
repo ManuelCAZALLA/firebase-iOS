@@ -16,7 +16,7 @@ class FirebaseStorageViewModel: StorageViewModelProtocol {
            // return
         //}
         
-        // Esto es para reducir tamaño de la imagen
+        // Esto es para reducir tamaño de la imagen.
         guard let imageData = image.jpegData(compressionQuality: 0.1 ) else {
             onFailure(NSError(domain: "Error", code: -1, userInfo: [NSLocalizedDescriptionKey: "Unable to convert image to data"]))
             return
