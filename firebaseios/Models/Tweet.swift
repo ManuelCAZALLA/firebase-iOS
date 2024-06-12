@@ -13,6 +13,7 @@ class Tweet: Identifiable {
     let timestamp: String
     
     init() {
+       
         self.id = ""
         self.userName = ""
         self.type = .TEXT
